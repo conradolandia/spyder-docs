@@ -17,6 +17,7 @@ Debugging with ipdb
 You can fully control debugger execution from the :guilabel:`Debug` menu, :guilabel:`Debug toolbar` and via configurable keyboard shortcuts, along with the standard ``ipdb`` `console commands`_.
 
 .. video:: /images/debugging/debugging-commands.webm
+   :loop:
    :alt: A Spyder IPython console window, showing debugging from toolbar
 
 Additionally, the  :doc:`editor` shows the line of code the debugger is currently stopped on with an arrow.
@@ -31,6 +32,7 @@ Spyder's debugger offers syntax highlighting, code completion and command histor
 Use the up and down arrows to recall previous commands, and press :kbd:`Tab` to trigger autocomplete suggestions.
 
 .. video:: /images/debugging/debugging-autocompletion.webm
+   :loop:
    :alt: A Spyder IPython console window, showing autocompletion when debugging
 
 Furthermore, IPython's `magic functions`_ are available in debugging mode.
@@ -44,6 +46,7 @@ You can, for example, run ``%ls`` to list the contents of your current working d
 Finally, you can enter and execute multiline statements in Spyder's debugger just like with the regular IPython prompt, to easily run complex code.
 
 .. video:: /images/debugging/debugging-multiline.webm
+   :loop:
    :alt: Debugger showing multiline debugger
 
 
@@ -68,6 +71,7 @@ There are several different ways to set and clear breakpoints:
 * Interactively, using the ``b`` command in a debugging session.
 
 .. video:: /images/debugging/debugging-breakpoints.webm
+   :loop:
    :alt: Spyder showing setting conditional breakpoint
 
 You can access and edit local and global variables at each breakpoint through the :doc:`variableexplorer`.
@@ -110,6 +114,7 @@ Generating Matplotlib figures is fully supported while the debugger is active, i
 Use the ``%matplotlib`` magic to change to an interactive backend (e.g. ``%matplotlib qt5``) to pan, zoom and adjust your plots in a separate window, or switch back to the default ``inline`` (``%matplotlib inline``) to see them displayed right in the :doc:`plots` pane.
 
 .. video:: /images/debugging/debugging-matplotlib.webm
+   :loop:
    :alt: Debugger showing matplotlib interactive backend
 
 
